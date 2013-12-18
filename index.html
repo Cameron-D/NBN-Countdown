@@ -32,11 +32,11 @@
 		<p class="tiny">Currently based off numbers released by ABS and NBN Co, numbers will be updated as needed once relevant information is available.</p>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script type="text/javascript">
-			var properties_left = Math.round((9117033*0.71)-229398);
+			var properties_left = Math.round((9117033*0.71)-397063);
 			// Currently: 71% of total dwellings - already passed by FTTH
 			// 9117033 dwellings		http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/0
 			// To 71% of the population	http://delimiter.com.au/2013/09/07/fttp-dream-coalition-victory-kills-labors-nbn/
-			// 207500 already passed	http://www.nbnco.com.au/content/dam/nbnco/media-releases/2013/nbn-co-meets-revised-targets.pdf
+			// 397063 properties passed	http://www.nbnco.com.au/about-us/weekly-progress-report.html
 			$(function() {
 				var now=new Date(),dateEnd=new Date(2016,11,31),days=Math.round((dateEnd-now)/1000/60/60/24);
 				$("#days").html(commas(days));
